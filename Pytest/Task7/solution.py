@@ -41,7 +41,7 @@ def n_series(lst):
     tail.next = None
     return head
 
-def merge_sort(lst):
+def sort(lst):
     while True:
         n = 0
         head = Node()
